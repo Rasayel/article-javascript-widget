@@ -1,0 +1,17 @@
+.widget {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #EAC8AF;
+  padding: 0 40px;
+  border-radius: 10px;
+  border: 2px solid #D8AC9C;
+  box-shadow: 4px 5px 15px 3px rgba(0,0,0,0.16);
+}
+
+.greeting {
+  color: #1B2021;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}

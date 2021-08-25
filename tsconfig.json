@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["esnext", "es2017", "ES2015", "dom"],
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["src"]
+    }
+  },
+  "include": ["src/"]
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <h1>Creating JavaScript Widget</h1>
+  <p>
+    You should see the widget on the bottom right! check the article <a href="https://rasayel.io/blog/how-to-create-a-javascript-widget/" rel="noopener" target="_blank">Creating JavaScript Widgets</a>
+  </p>
+  <script>
+    window.onload = () => {
+      widget = window.Greeter('Hello world!');
+
+
+      setTimeout(() => {
+        widget.greeting = 'This is another message!';
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
